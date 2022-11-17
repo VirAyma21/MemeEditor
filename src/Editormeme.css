@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-family: 'Anton', sans-serif;
+    color: lightcyan;
+	vertical-align: baseline;
+    background: #F09819;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*CONTENEDOR PRINCIPAL*/
+.principal {
+    display: flex;
+    place-content: center;
+}
+
+/*CONTENEDOR*/
+.contenedor {
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+
+/*CONTENEDOR INPUTS*/
+.contenedorInputs {
+    margin-right: 2rem;
+}
+.contenedorInputs input {
+    margin-bottom: 1.5rem !important;
+    
+}
+
+/*CONTENT FIGURE */
+/*figure*/
+#meme{
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+}
+/*img*/
+.img{
+    max-width: 400px;
+ 
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+/*SELECTORES*/
+.selectores {
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+    place-content: center;
+}
+/*selector-Botones */
+.posicionBase{
+    position:absolute; 
+}
+/*selector-Fuentes */
+#selectFuentes{
+    width: 70% !important;
+}
+/*selector-Tamaño */
+#selectTamaño{
+    width: 70% !important;
+}
+
+/*Boton-Desacargar*/
+#decargar {
+    color: lightcyan;
+}
+
+/*FOOTER*/
+.divFooter {
+    display: flex;
+    place-content: center;
+}
+footer P {
+    font-size: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: lightcyan;
+}
+footer a{
+    padding-left: 1rem;
+}
+
