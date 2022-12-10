@@ -88,3 +88,40 @@ footer a{
     padding-left: 1rem;
 }
 
+
+@media only screen and (max-width: 480px)  {
+    .principal {
+        flex-direction: column;
+    }
+  .contenedor{
+    flex-direction: column-reverse;
+  }
+
+  .selectores {
+    flex-direction: unset;
+    margin: 0.5rem;
+    gap: 0;
+  }
+ 
+}
+
+@media only screen and (min-width: 481px) and (max-width:780px) {
+    .principal {
+        flex-direction: column;
+    }
+  .contenedor{
+    flex-direction: column-reverse;
+  }
+
+  .selectores {
+    flex-direction: unset;
+    margin: 0.5rem;
+    gap: 1rem;
+  }
+ 
+}
+@media only screen and (min-width: 781px) and (max-width:1200px) {
+    .contenedor {
+        margin-left: 0.5rem;
+    }
+}
