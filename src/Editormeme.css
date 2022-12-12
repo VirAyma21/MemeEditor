@@ -10,6 +10,10 @@ body{
     background: -webkit-linear-gradient(to right, #EDDE5D, #F09819);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #EDDE5D, #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/*Título*/
+h1{
+    color: white;
+}
 
 /*CONTENEDOR PRINCIPAL*/
 .principal {
@@ -56,7 +60,7 @@ body{
     flex-direction: column;
     place-content: center;
 }
-/*selector-Botones */
+/*selector-parrafos */
 .posicionBase{
     position:absolute; 
 }
@@ -68,7 +72,10 @@ body{
 #selectTamaño{
     width: 70% !important;
 }
-
+/*selector-botones */
+.botones {
+    min-width: 130px;
+}
 /*Boton-Desacargar*/
 #decargar {
     color: lightcyan;
@@ -90,6 +97,7 @@ footer a{
 
 
 @media only screen and (max-width: 480px)  {
+  
     .principal {
         flex-direction: column;
     }
@@ -101,7 +109,9 @@ footer a{
     flex-direction: unset;
     margin: 0.5rem;
     gap: 0;
+    font-size: 50%;
   }
+ 
  
 }
 
@@ -124,4 +134,5 @@ footer a{
     .contenedor {
         margin-left: 0.5rem;
     }
+    
 }

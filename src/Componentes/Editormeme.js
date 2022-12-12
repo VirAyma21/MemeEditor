@@ -282,10 +282,14 @@ return(
                             </select>
                     </div>
                     <div className='botones'>
-                        <button id="izquierda" className='btn btn-outline-info'><img src="./imagenes/flecha-hacia-izquierda.png" alt=""/></button>
-                        <button id='derecha'className='btn btn-outline-info'> <img src="./imagenes/flecha-hacia-derecha.png" alt=""/> </button>
-                        <button id='arriba' className='btn btn-outline-info'> <img src="./imagenes/flecha-hacia-arriba.png" alt=""/> </button>
-                        <button id='abajo' className='btn btn-outline-info'><img src="./imagenes/flecha-hacia-abajo.png" alt=""/> </button>  
+                        <div className='btnHorizontal'>
+                            <button id="izquierda" className='btn btn-outline-info'><img src="./imagenes/flecha-hacia-izquierda.png" alt=""/></button>
+                            <button id='derecha'className='btn btn-outline-info'> <img src="./imagenes/flecha-hacia-derecha.png" alt=""/> </button>
+                        </div>
+                        <div className='btnVertical'>
+                            <button id='arriba' className='btn btn-outline-info'> <img src="./imagenes/flecha-hacia-arriba.png" alt=""/> </button>
+                            <button id='abajo' className='btn btn-outline-info'><img src="./imagenes/flecha-hacia-abajo.png" alt=""/> </button>  
+                        </div>
                     </div>
                 </div>
             </div>
